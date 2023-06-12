@@ -1,0 +1,78 @@
+.weather-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+.city-div {
+    margin-top: 15%;
+    text-align: center;;
+}
+
+.city-name {
+    font-size: 2.00em;
+}
+
+.current-temp{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 4.00em;
+}
+
+.weather-conditions{
+    text-align: center;
+}
+
+.weather-icon {
+    text-align: center;
+}
+
+.weather-img {
+    height: 40px;
+    width: 40px;
+}
+
+body {
+    font-family: 'Barlow Condensed';
+}
+
+#sunny {
+    background-image: url(images/abundant-sunshine-gif.gif);
+}
+
+#cloudy {
+    background-image: url(images/partly-cloudy.gif);
+}
+
+#rain {
+    background-image: url(images/rain2.gif);
+}
+
+#snow {
+    background-image: url(images/snow.gif);
+}
+
+.search-btn {
+    border-radius: 5px;
+}
+
+.search-img {
+    display: block;
+    width: 12px;
+    height: 12px;
+    top: 50%;
+    left: 50%;
+}
+
+.search-bar {
+    border-radius: 4px;
+}
